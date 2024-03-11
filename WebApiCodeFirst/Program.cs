@@ -6,6 +6,9 @@
 using WebApiCodeFirst.Logging;
 using GrueneisR.RestClientGenerator;
 using Microsoft.OpenApi.Models;
+using WebApiCodeFirst.Models;
+using WebApiCodeFirst.Services;
+using SchoolDbLib;
 
 string corsKey = "_myAllowSpecificOrigins";
 string swaggerVersion = "v1";
@@ -35,6 +38,13 @@ builder.Services
 	  //.EnableLogging()
   );
 builder.Services.AddLogging(x => x.AddCustomFormatter());
+
+builder.Services.AddDbContext<SchoolContext>();
+builder.Services.AddScoped<IDbService, DataProviderService>();
+builder.Services.AddHostedService<CreateSchoolDbService>();
+
+builder.Services.AddHostedService<DbLogObserver>();
+builder.Services.AddHostedService<ConsoleLogObserver>();
 #endregion
 
 var app = builder.Build();

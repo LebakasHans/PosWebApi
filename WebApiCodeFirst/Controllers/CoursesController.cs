@@ -1,30 +1,28 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-
-using SchoolDbLib;
-
+using SchoolWebApi.Dtos;
 using WebApiCodeFirst.Models;
 
 namespace WebApiCodeFirst.Controllers;
 
-[Route("course")]
+[Route("Courses")]
 [ApiController]
 public class CoursesController(IDbService service) : ControllerBase
 {
-  [HttpGet]
-  public IEnumerable<Course> GetAllCourses()
-  {
-    return service.AllCourses();
-  }
+    [HttpGet]
+    public IEnumerable<CourseDto> GetAllCourses()
+    {
+        return service.AllCourses();
+    }
 
-  [HttpGet("{id}")]
-  public Course GetCourse(int id)
-  {
-    return service.GetCourse(id);
-  }
+    [HttpGet("{id}")]
+    public CourseDto GetCourse(int id)
+    {
+        return service.GetCourse(id);
+    }
 
-  [HttpGet("{id}/classes")]
-  public IEnumerable<Class> GetClassesByCourse(int id)
-  {
-    return service.AllClassesByCourse(id);
-  }
+    [HttpGet("{id}/Clazzes")]
+    public IEnumerable<ClassDto> GetClassesByCourse(int id)
+    {
+        return service.AllClassesByCourse(id);
+    }
 }

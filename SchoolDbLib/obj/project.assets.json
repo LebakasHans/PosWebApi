@@ -4090,11 +4090,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jakob\\Documents\\Schule\\Pos\\C#\\140_WebApiCodeFirst\\SchoolDbLib\\SchoolDbLib.csproj",
+      "projectUniqueName": "C:\\Users\\jakob\\Documents\\Schule\\Pos\\PosWebApi\\SchoolDbLib\\SchoolDbLib.csproj",
       "projectName": "SchoolDbLib",
-      "projectPath": "C:\\Users\\jakob\\Documents\\Schule\\Pos\\C#\\140_WebApiCodeFirst\\SchoolDbLib\\SchoolDbLib.csproj",
+      "projectPath": "C:\\Users\\jakob\\Documents\\Schule\\Pos\\PosWebApi\\SchoolDbLib\\SchoolDbLib.csproj",
       "packagesPath": "C:\\Users\\jakob\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jakob\\Documents\\Schule\\Pos\\C#\\140_WebApiCodeFirst\\SchoolDbLib\\obj\\",
+      "outputPath": "C:\\Users\\jakob\\Documents\\Schule\\Pos\\PosWebApi\\SchoolDbLib\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jakob\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4160,7 +4160,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

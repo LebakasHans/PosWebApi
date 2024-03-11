@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AqyMYJ0lrCWNjZyWVidMg20PPLXXwK3xmYRe91xxSFXkl8nO/dNAex2XzFj4JSKvxuuccgC5r1DggfTSMcFLVw==",
+  "dgSpecHash": "oz7LM8Btl3qND248iKAUT7xBHkWQPQhn3kGAVb9ksBOiDkPkEUj5mwEFKbmyxrUosRFji6cEyo91QEeF4vpoRA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jakob\\Documents\\Schule\\Pos\\C#\\140_WebApiCodeFirst\\SchoolDbLib\\SchoolDbLib.csproj",
+  "projectFilePath": "C:\\Users\\jakob\\Documents\\Schule\\Pos\\PosWebApi\\SchoolDbLib\\SchoolDbLib.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jakob\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\jakob\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

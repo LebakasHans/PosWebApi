@@ -14,11 +14,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ObserverLib\ObserverLib.csproj" />
     <ProjectReference Include="..\SchoolDbLib\SchoolDbLib.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Dtos\" />
   </ItemGroup>
 
 </Project>

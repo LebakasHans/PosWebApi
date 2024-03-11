@@ -1,6 +1,28 @@
 @baseUrl = http://localhost:5000
 
 
-##################################################
-GET {{baseUrl}}/dummy
+################################################## Courses
+GET {{baseUrl}}/Courses
+#####
+GET {{baseUrl}}/Courses/1
+#####
+GET {{baseUrl}}/Courses/1/Clazzes
+#####
+
+################################################## Instructors
+GET {{baseUrl}}/Instructors
+#####
+
+################################################## Sections
+GET {{baseUrl}}/Sections
+#####
+GET {{baseUrl}}/Sections/1/Classes
+#####
+
+################################################## Students
+GET {{baseUrl}}/Students?name=A
+#####
+
+################################################## StudentsByAddress
+GET {{baseUrl}}/StudentsByAddress?address=12
 #####

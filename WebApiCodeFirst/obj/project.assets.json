@@ -2897,6 +2897,16 @@
           }
         }
       },
+      "ObserverLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/ObserverLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ObserverLib.dll": {}
+        }
+      },
       "SchoolDbLib/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -8309,6 +8319,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "ObserverLib/1.0.0": {
+      "type": "project",
+      "path": "../ObserverLib/ObserverLib.csproj",
+      "msbuildProject": "../ObserverLib/ObserverLib.csproj"
+    },
     "SchoolDbLib/1.0.0": {
       "type": "project",
       "path": "../SchoolDbLib/SchoolDbLib.csproj",
@@ -8320,6 +8335,7 @@
       "GrueneisR.RestClientGenerator >= *",
       "Microsoft.AspNetCore.OpenApi >= 8.0.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.0",
+      "ObserverLib >= 1.0.0",
       "SchoolDbLib >= 1.0.0",
       "Swashbuckle.AspNetCore >= *"
     ]
@@ -8330,11 +8346,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jakob\\Documents\\Schule\\Pos\\C#\\140_WebApiCodeFirst\\WebApiCodeFirst\\WebApiCodeFirst.csproj",
+      "projectUniqueName": "C:\\Users\\jakob\\Documents\\Schule\\Pos\\PosWebApi\\WebApiCodeFirst\\WebApiCodeFirst.csproj",
       "projectName": "WebApiCodeFirst",
-      "projectPath": "C:\\Users\\jakob\\Documents\\Schule\\Pos\\C#\\140_WebApiCodeFirst\\WebApiCodeFirst\\WebApiCodeFirst.csproj",
+      "projectPath": "C:\\Users\\jakob\\Documents\\Schule\\Pos\\PosWebApi\\WebApiCodeFirst\\WebApiCodeFirst.csproj",
       "packagesPath": "C:\\Users\\jakob\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jakob\\Documents\\Schule\\Pos\\C#\\140_WebApiCodeFirst\\WebApiCodeFirst\\obj\\",
+      "outputPath": "C:\\Users\\jakob\\Documents\\Schule\\Pos\\PosWebApi\\WebApiCodeFirst\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jakob\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8351,8 +8367,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\jakob\\Documents\\Schule\\Pos\\C#\\140_WebApiCodeFirst\\SchoolDbLib\\SchoolDbLib.csproj": {
-              "projectPath": "C:\\Users\\jakob\\Documents\\Schule\\Pos\\C#\\140_WebApiCodeFirst\\SchoolDbLib\\SchoolDbLib.csproj"
+            "C:\\Users\\jakob\\Documents\\Schule\\Pos\\PosWebApi\\ObserverLib\\ObserverLib.csproj": {
+              "projectPath": "C:\\Users\\jakob\\Documents\\Schule\\Pos\\PosWebApi\\ObserverLib\\ObserverLib.csproj"
+            },
+            "C:\\Users\\jakob\\Documents\\Schule\\Pos\\PosWebApi\\SchoolDbLib\\SchoolDbLib.csproj": {
+              "projectPath": "C:\\Users\\jakob\\Documents\\Schule\\Pos\\PosWebApi\\SchoolDbLib\\SchoolDbLib.csproj"
             }
           }
         }
@@ -8403,7 +8422,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

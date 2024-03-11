@@ -1,18 +1,16 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-
-using SchoolDbLib;
-
+using SchoolWebApi.Dtos;
 using WebApiCodeFirst.Models;
 
 namespace WebApiCodeFirst.Controllers;
 
-[Route("instructor")]
+[Route("Instructors")]
 [ApiController]
 public class InstructorController(IDbService service) : ControllerBase
 {
-  [HttpGet]
-  public IEnumerable<Instructor> GetAllInstructors()
-  {
-    return service.AllInstructors();
-  }
+    [HttpGet]
+    public IEnumerable<InstructorDto> GetAllInstructors()
+    {
+        return service.AllInstructors();
+    }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FVZUBtVsmjgaB+kEptnmwfsEkDmQ0K+ixZNF0V5SkLlAUD1x/rofmgvE5MZsAOKp8NvrSj2KK3QJakgvUY4xMw==",
+  "dgSpecHash": "qZCrKhMR+e4+//FCXfNHcsQAh9gNZjdRXlXP+PYZ4ETuJE0xPD3OnahCoaxa1ZjEZleNeY+8noj69hPmyx7jYg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jakob\\Documents\\Schule\\Pos\\C#\\140_WebApiCodeFirst\\WebApiCodeFirst\\WebApiCodeFirst.csproj",
+  "projectFilePath": "C:\\Users\\jakob\\Documents\\Schule\\Pos\\PosWebApi\\WebApiCodeFirst\\WebApiCodeFirst.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jakob\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\jakob\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

@@ -5,7 +5,9 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApiCodeFirst", "WebApiCodeFirst\WebApiCodeFirst.csproj", "{E388EB5F-3627-4862-B070-BDE6803453EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolDbLib", "SchoolDbLib\SchoolDbLib.csproj", "{65EEAA51-96A6-41C6-89F3-AFF200073C0A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SchoolDbLib", "SchoolDbLib\SchoolDbLib.csproj", "{65EEAA51-96A6-41C6-89F3-AFF200073C0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverLib", "ObserverLib\ObserverLib.csproj", "{99EC58F3-F7C7-41E3-B5B7-ED5C85F0DCFB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,8 +23,15 @@ Global
 		{65EEAA51-96A6-41C6-89F3-AFF200073C0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65EEAA51-96A6-41C6-89F3-AFF200073C0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65EEAA51-96A6-41C6-89F3-AFF200073C0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99EC58F3-F7C7-41E3-B5B7-ED5C85F0DCFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99EC58F3-F7C7-41E3-B5B7-ED5C85F0DCFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99EC58F3-F7C7-41E3-B5B7-ED5C85F0DCFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99EC58F3-F7C7-41E3-B5B7-ED5C85F0DCFB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {075B8EC4-1777-4FF3-A1FF-F3480DD3D595}
 	EndGlobalSection
 EndGlobal

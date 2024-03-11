@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SchoolDbLib")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ddfbc9f2326e210ac40135017f910de72b325b90")]
 [assembly: System.Reflection.AssemblyProductAttribute("SchoolDbLib")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SchoolDbLib")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

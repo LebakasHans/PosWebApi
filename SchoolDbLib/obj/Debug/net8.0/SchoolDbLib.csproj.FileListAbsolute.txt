@@ -1,0 +1,15 @@
+C:\Users\jakob\Documents\Schule\Pos\PosWebApi\SchoolDbLib\bin\Debug\net8.0\SchoolDbLib.deps.json
+C:\Users\jakob\Documents\Schule\Pos\PosWebApi\SchoolDbLib\bin\Debug\net8.0\SchoolDbLib.runtimeconfig.json
+C:\Users\jakob\Documents\Schule\Pos\PosWebApi\SchoolDbLib\bin\Debug\net8.0\SchoolDbLib.dll
+C:\Users\jakob\Documents\Schule\Pos\PosWebApi\SchoolDbLib\bin\Debug\net8.0\SchoolDbLib.pdb
+C:\Users\jakob\Documents\Schule\Pos\PosWebApi\SchoolDbLib\obj\Debug\net8.0\SchoolDbLib.csproj.AssemblyReference.cache
+C:\Users\jakob\Documents\Schule\Pos\PosWebApi\SchoolDbLib\obj\Debug\net8.0\SchoolDbLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jakob\Documents\Schule\Pos\PosWebApi\SchoolDbLib\obj\Debug\net8.0\SchoolDbLib.AssemblyInfoInputs.cache
+C:\Users\jakob\Documents\Schule\Pos\PosWebApi\SchoolDbLib\obj\Debug\net8.0\SchoolDbLib.AssemblyInfo.cs
+C:\Users\jakob\Documents\Schule\Pos\PosWebApi\SchoolDbLib\obj\Debug\net8.0\SchoolDbLib.csproj.CoreCompileInputs.cache
+C:\Users\jakob\Documents\Schule\Pos\PosWebApi\SchoolDbLib\obj\Debug\net8.0\SchoolDbLib.sourcelink.json
+C:\Users\jakob\Documents\Schule\Pos\PosWebApi\SchoolDbLib\obj\Debug\net8.0\SchoolDbLib.dll
+C:\Users\jakob\Documents\Schule\Pos\PosWebApi\SchoolDbLib\obj\Debug\net8.0\refint\SchoolDbLib.dll
+C:\Users\jakob\Documents\Schule\Pos\PosWebApi\SchoolDbLib\obj\Debug\net8.0\SchoolDbLib.pdb
+C:\Users\jakob\Documents\Schule\Pos\PosWebApi\SchoolDbLib\obj\Debug\net8.0\SchoolDbLib.genruntimeconfig.cache
+C:\Users\jakob\Documents\Schule\Pos\PosWebApi\SchoolDbLib\obj\Debug\net8.0\ref\SchoolDbLib.dll

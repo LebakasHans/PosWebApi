@@ -1,23 +1,22 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-using SchoolDbLib;
-
+using SchoolWebApi.Dtos;
 using WebApiCodeFirst.Models;
 
 namespace WebApiCodeFirst.Controllers;
 
-[Route("sections")]
+[Route("Sections")]
 [ApiController]
 public class SectionsController(IDbService service) : ControllerBase
 {
   [HttpGet]
-  public IEnumerable<Section> GetAllSections()
+  public IEnumerable<SectionDto> GetAllSections()
   {
     return service.AllSections();
   }
 
-  [HttpGet("{id}/classes")]
-  public IEnumerable<Class> GetClassesBySection(int id)
+  [HttpGet("{id}/Classes")]
+  public IEnumerable<ClassDto> GetClassesBySection(int id)
   {
     return service.AllClassesBySection(id);
   }
